@@ -1,8 +1,7 @@
-@import "home";
 @import "config";
+@import "home";
 
 body {
-  background: $primary-color;
   color: #fff;
   height: 100vh;
   font-family: "Raleway", sans-serif;
@@ -38,6 +37,7 @@ main {
 
     a {
       padding: 0.4rem;
+      @include transition-ease;
       &:hover {
         color: $secondary-color;
       }
