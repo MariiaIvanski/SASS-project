@@ -26,6 +26,7 @@
       background: set-text-color($primary-color);
       @include transition-ease;
     }
+
     &::after {
       content: "";
       position: absolute;
