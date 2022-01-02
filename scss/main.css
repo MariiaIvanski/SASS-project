@@ -22,7 +22,7 @@
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #000;
 }
 
 .home__name--last {
@@ -31,7 +31,8 @@
 }
 
 body {
-  color: #fff;
+  background: #6e3cbc;
+  color: #000;
   height: 100vh;
   font-family: "Raleway", sans-serif;
   line-height: 1;
@@ -44,7 +45,7 @@ h3 {
 }
 
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -83,6 +84,6 @@ footer {
   right: 1rem;
   text-align: right;
   padding: 1rem;
-  color: #fff;
+  color: #000;
 }
 /*# sourceMappingURL=main.css.map */
