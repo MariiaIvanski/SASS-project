@@ -130,7 +130,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.nav .menu-navopen {
+.nav .menu-nav.open {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }

@@ -78,7 +78,7 @@
     transform: translateY(-100%);
     @include transition-ease;
 
-    &open {
+    &.open {
       transform: translateY(0);
     }
   }
