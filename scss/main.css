@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(110, 60, 188, 0.9)), to(rgba(110, 60, 188, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(110, 60, 188, 0.9), rgba(110, 60, 188, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(110, 60, 188, 0.9)), to(rgba(110, 60, 188, 0.3))), url("../dist/img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(110, 60, 188, 0.9), rgba(110, 60, 188, 0.3)), url("../dist/img/model-1.jpg") center top;
   background-size: cover;
 }
 
@@ -136,7 +136,6 @@
 }
 
 body {
-  background: #6e3cbc;
   color: #000;
   height: 100vh;
   font-family: "Raleway", sans-serif;
