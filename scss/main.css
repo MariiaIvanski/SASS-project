@@ -203,6 +203,10 @@ a {
   text-decoration: none;
 }
 
+.text-secondary {
+  color: #98bae7;
+}
+
 header {
   position: fixed;
   z-index: 2;
