@@ -311,7 +311,7 @@
 }
 
 .projects__item img {
-  width: 60vw;
+  width: 100%;
 }
 
 .projects__item::after {
