@@ -259,8 +259,8 @@
 }
 
 .about footer {
-  -webkit-transform: rotate(90deg) translate(-30rem, -5rem);
-          transform: rotate(90deg) translate(-30rem, -5rem);
+  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
+          transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 .projects {
@@ -375,8 +375,73 @@
 }
 
 .projects footer {
-  -webkit-transform: rotate(90deg) translate(-30rem, -5rem);
-          transform: rotate(90deg) translate(-30rem, -5rem);
+  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
+          transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+.contact {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(110, 60, 188, 0.9)), to(rgba(110, 60, 188, 0.3))), url("../dist/img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(110, 60, 188, 0.9), rgba(110, 60, 188, 0.3)), url("../dist/img/model-1.jpg") center top;
+  background-size: cover;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.contact .social-icons {
+  position: initial;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    visibility: hidden;
+  }
+  .nav {
+    visibility: visible;
+  }
+  .nav .menu-nav {
+    display: block;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    height: 100%;
+    background: transparent;
+    text-align: right;
+  }
+  .nav .menu-nav__item {
+    display: inline;
+    padding-right: 1.5rem;
+  }
+  .nav .menu-nav__link {
+    font-size: 1.5rem;
+  }
+  .about__bio {
+    font-size: 1.5rem;
+  }
 }
 
 body {
