@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(110, 60, 188, 0.9)), to(rgba(110, 60, 188, 0.3))), url("../dist/img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(110, 60, 188, 0.9), rgba(110, 60, 188, 0.3)), url("../dist/img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(166, 141, 173, 0.9)), to(rgba(166, 141, 173, 0.3))), url("../dist/img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(166, 141, 173, 0.9), rgba(166, 141, 173, 0.3)), url("../dist/img/model-1.jpg") center top;
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .home__name--last {
-  color: #98bae7;
+  color: #dfd3c3;
   font-weight: 700;
 }
 
@@ -121,7 +121,7 @@
           justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #6e3cbc;
+  background: #a68dad;
   list-style-type: none;
   padding-right: 1rem;
   -webkit-transform: translateY(-100%);
@@ -148,7 +148,7 @@
 }
 
 .nav .menu-nav__item.active > a {
-  color: #98bae7;
+  color: #dfd3c3;
 }
 
 .nav .menu-nav__link {
@@ -162,7 +162,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: #98bae7;
+  color: #dfd3c3;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -192,8 +192,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(110, 60, 188, 0.9)), to(rgba(110, 60, 188, 0.3))), url("../dist/img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(110, 60, 188, 0.9), rgba(110, 60, 188, 0.3)), url("../dist/img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(166, 141, 173, 0.9)), to(rgba(166, 141, 173, 0.3))), url("../dist/img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(166, 141, 173, 0.9), rgba(166, 141, 173, 0.3)), url("../dist/img/model-1.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -234,9 +234,9 @@
 }
 
 .about .jobs__job {
-  background: #8a5fcc;
+  background: #bdabc2;
   padding: 0.5rem;
-  border-bottom: 5px solid #98bae7;
+  border-bottom: 5px solid #dfd3c3;
 }
 
 .about .jobs__job h2,
@@ -270,8 +270,8 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(110, 60, 188, 0.9)), to(rgba(110, 60, 188, 0.3))), url("../dist/img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(110, 60, 188, 0.9), rgba(110, 60, 188, 0.3)), url("../dist/img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(166, 141, 173, 0.9)), to(rgba(166, 141, 173, 0.3))), url("../dist/img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(166, 141, 173, 0.9), rgba(166, 141, 173, 0.3)), url("../dist/img/model-1.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,7 +305,7 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #98bae7;
+  border-bottom: 5px solid #dfd3c3;
   overflow: hidden;
   cursor: pointer;
 }
@@ -321,7 +321,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #98bae7;
+  background: #dfd3c3;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -393,8 +393,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(110, 60, 188, 0.9)), to(rgba(110, 60, 188, 0.3))), url("../dist/img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(110, 60, 188, 0.9), rgba(110, 60, 188, 0.3)), url("../dist/img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(166, 141, 173, 0.9)), to(rgba(166, 141, 173, 0.3))), url("../dist/img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(166, 141, 173, 0.9), rgba(166, 141, 173, 0.3)), url("../dist/img/model-1.jpg") center top;
   background-size: cover;
 }
 
@@ -476,7 +476,7 @@
 }
 
 body {
-  background: #6e3cbc;
+  background: #a68dad;
   color: #000;
   height: 100vh;
   font-family: "Raleway", sans-serif;
@@ -495,7 +495,7 @@ a {
 }
 
 .text-secondary {
-  color: #98bae7;
+  color: #dfd3c3;
 }
 
 header {
@@ -523,7 +523,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #98bae7;
+  color: #dfd3c3;
 }
 
 footer {
