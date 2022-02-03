@@ -27,6 +27,15 @@
       padding-bottom: 1rem;
     }
   }
+
+  .my-photo {
+    max-width: 10rem;
+    border-radius: 50%;
+    border: 2px solid $secondary-color;
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+
   .jobs {
     width: 60vw;
     margin: 2rem auto 0 auto;
