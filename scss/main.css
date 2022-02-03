@@ -412,6 +412,10 @@
   font-size: 1.5rem;
 }
 
+.contact .contact__email a {
+  color: #dfd3c3;
+}
+
 .contact .social-icons {
   position: initial;
   margin-top: 2rem;
