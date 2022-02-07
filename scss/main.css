@@ -18,6 +18,14 @@
   background-size: cover;
 }
 
+.home .my-photo {
+  max-width: 10rem;
+  border-radius: 50%;
+  border: 2px solid #dfd3c3;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
 .home__name {
   font-size: 5rem;
   padding-bottom: 1rem;
@@ -221,14 +229,6 @@
 
 .about__bio .text-secondary {
   padding-bottom: 1rem;
-}
-
-.about .my-photo {
-  max-width: 10rem;
-  border-radius: 50%;
-  border: 2px solid #dfd3c3;
-  margin: 1rem;
-  padding: 0.5rem;
 }
 
 .about .jobs {
